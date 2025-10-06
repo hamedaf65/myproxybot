@@ -36,7 +36,7 @@ async def handle_forwarded_message(update: Update, context: ContextTypes.DEFAULT
 
 def main():
     # خواندن توکن از متغیر محیطی (برای امنیت)
-    BOT_TOKEN = os.getenv("8291463444:AAFk70lWlommsIj99DzGyKiGdXvxaLumSLA")
+    BOT_TOKEN = os.getenv("BOT_TOKEN")
     if not BOT_TOKEN:
         raise ValueError("❌ لطفاً متغیر BOT_TOKEN را تنظیم کنید.")
 
